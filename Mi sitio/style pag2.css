@@ -111,7 +111,7 @@ header {
 }
 
 main {
-    background-color: rgb(234, 245, 248);
+    background-color: white;
 }
 
 nav {
@@ -173,6 +173,24 @@ footer {
     
 }
 
+.grid-container {    
+    display: grid;    
+    grid-template-columns: repeat(5, 1.8fr); /* Crea 3 columnas de igual tamaño */    
+    grid-template-rows: repeat(5, auto); /* Crea 3 filas de altura fija de 100px */    
+    gap: 6px; /* Espacio entre las celdas */
+    align-items: center;
+    
+}
+
+.item {    
+    background-color: white;    
+    color: white;    
+    text-align: center;    
+    padding: 20px;}
+    
+
+
+/* Imagenes */
 
 .logo {
     padding: 0.5rem;

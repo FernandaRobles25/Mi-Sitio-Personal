@@ -213,6 +213,8 @@ footer {
 
 .img {
     max-width: 50%;
-    float: left;;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
 
   }

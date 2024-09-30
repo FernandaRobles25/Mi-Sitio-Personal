@@ -210,3 +210,8 @@ footer {
     clip-path: stroke-box;
     shape-outside: margin-box;
 }
+
+.img {
+    border-radius: 10px;
+
+  }
