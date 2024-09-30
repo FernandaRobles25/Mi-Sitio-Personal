@@ -71,9 +71,9 @@ figcaption {
     font-weight: 500;
     font-style: normal;
     font-size: small;
-    color: black;
-    opacity: 60%;
-    text-align: center;    
+    color: rgb(47, 72, 104);
+    text-align: center;
+    padding-top: 5px;  
 }
 
 /* Estilo navegación */
@@ -131,9 +131,9 @@ footer {
 @media only screen and (min-width:600px) {
     #container{
         display: grid;
-        grid-template-columns: 2fr 2fr 1fr;
-        grid-template-rows: auto auto 1fr auto;
-        height: 100vh;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-rows: auto;
+        height: auto;
         gap: 0.5rem;
         grid-template-areas: 
          "nav nav nav"
@@ -175,9 +175,9 @@ footer {
 
 .grid-container {    
     display: grid;    
-    grid-template-columns: repeat(5, 1.8fr); /* Crea 3 columnas de igual tamaño */    
-    grid-template-rows: repeat(5, auto); /* Crea 3 filas de altura fija de 100px */    
-    gap: 6px; /* Espacio entre las celdas */
+    grid-template-columns: repeat(4, 1.8fr); /* Crea 3 columnas de igual tamaño */    
+    grid-template-rows: repeat(10, auto); /* Crea 3 filas de altura fija de 100px */    
+    gap: 0.3fr; /* Espacio entre las celdas */
     align-items: center;
     
 }
@@ -188,6 +188,18 @@ footer {
     text-align: center;    
     padding: 20px;}
     
+.subtitulo {
+    background-color: rgb(229, 239, 248);
+    text-align: left;
+    padding: 20px;
+    padding-left: 50px;
+    color: rgb(151, 145, 235);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
 
 
 /* Imagenes */
@@ -201,4 +213,8 @@ footer {
     margin: 1rem;
     clip-path: stroke-box;
     shape-outside: margin-box;
+}
+
+img {
+    border-radius: 10px;
 }
